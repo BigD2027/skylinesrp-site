@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SkyLinesRP Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="neo">
+    <div class="noise"></div>
+    <header class="hero">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand-mark">SL</span>
+          <span class="brand-name">SkyLinesRP</span>
+        </div>
+        <div class="nav-actions">
+          <div class="dropdown">
+            <button class="dropdown-toggle" type="button">My Subscriptions</button>
+            <ul class="dropdown-menu">
+              <li><a href="subscriptions.html">Manage Subscriptions</a></li>
+              <li><a href="subscriptions.html#cancel">Cancel Subscription</a></li>
+              <li><a href="subscriptions.html#auto-renew">Auto-Renew Settings</a></li>
+              <li><hr style="margin: 0.5rem 0; border: none; border-top: 1px solid rgba(248, 245, 240, 0.1);"></li>
+              <li><a href="carpacks.html">🚗 Car Packs ($3)</a></li>
+              <li><hr style="margin: 0.5rem 0; border: none; border-top: 1px solid rgba(248, 245, 240, 0.1);"></li>
+              <li><a href="money.html">💵 Money Packs</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-toggle" type="button">Info & Support</button>
+            <ul class="dropdown-menu">
+              <li><a href="#rules">📋 Refund Policy</a></li>
+              <li><a href="#support">🎫 Support Ticket</a></li>
+              <li><a href="#rules">📖 Rules</a></li>
+              <li><hr style="margin: 0.5rem 0; border: none; border-top: 1px solid rgba(248, 245, 240, 0.1);"></li>
+              <li><a href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">💬 Discord Support</a></li>
+              <li><a href="mailto:blakeg716@hotmail.com">📧 Email Support</a></li>
+            </ul>
+          </div>
+          <a class="cta ghost" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=blakeg716@hotmail.com&display=1&currency_code=USD" target="_blank" rel="noopener">View Cart</a>
+          <a class="cta" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Join Discord</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">GTA FiveM Store</p>
+          <h1>Own the skyline. Run the city.</h1>
+          <p class="lede">
+            SkyLinesRP is a premium roleplay experience with curated staff roles, whitelisted access, and
+            a focused community. Choose your access or step into leadership.
+          </p>
+          <div class="hero-actions">
+            <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Access Pass (1 Month)">
+              <input type="hidden" name="amount" value="1.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary">Get $1 Access</button>
+            </form>
+            <a class="cta ghost" href="#roles">View Roles</a>
+          </div>
+          <div class="hero-note">
+            <span>$1 Monthly Access Pass</span>
+            <span>Monthly subscription. Instant whitelisting after approval.</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top">
+            <h2>Access Pass</h2>
+            <div class="price">
+              <span class="price-amount">$1</span>
+              <span class="price-term">/month</span>
+            </div>
+          </div>
+          <ul class="card-list">
+            <li>Server access + whitelist</li>
+            <li>Priority onboarding support</li>
+            <li>Community rules agreement</li>
+          </ul>
+          <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="add" value="1">
+            <input type="hidden" name="business" value="blakeg716@hotmail.com">
+            <input type="hidden" name="item_name" value="Access Pass (1 Month)">
+            <input type="hidden" name="amount" value="1.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit" class="cta full">Pay $1 to Enter</button>
+          </form>
+          <p class="card-foot">Payments are handled via PayPal.</p>
+          <p class="card-notice">⚠️ Content is being recorded on this server. Anyone can record. By accessing, you consent to recording and streaming.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="roles" id="roles">
+        <div class="section-head">
+          <h2>Leadership Roles & Premium Access</h2>
+          <p><strong>We guarantee delivery within 24 hours — Reserve Slots deliver in just 2 hours.</strong></p>
+        </div>
+        <div class="role-grid">
+          <article class="role-card premium">
+            <div class="role-header">
+              <h3>Owner Role</h3>
+              <span class="role-tag">$80/month</span>
+            </div>
+            <p class="role-desc">
+              Direct the server vision, manage staff, and access core systems with full privileges.
+            </p>
+            <ul class="role-list">
+              <li>Full server management</li>
+              <li>Economy &amp; framework control</li>
+              <li>Brand + partnership approvals</li>
+            </ul>
+            <div class="role-actions">
+              <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                <input type="hidden" name="item_name" value="Owner Role (1 Month)">
+                <input type="hidden" name="amount" value="80.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="cta primary">Pay $80/month</button>
+              </form>
+              <a class="cta ghost" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Contact Staff</a>
+            </div>
+          </article>
+          <article class="role-card">
+            <div class="role-header">
+              <h3>Supervisor</h3>
+              <span class="role-tag">$35/month</span>
+            </div>
+            <p class="role-desc">
+              Guide daily operations, coach moderators, and keep roleplay standards sharp.
+            </p>
+            <ul class="role-list">
+              <li>Moderation + training support</li>
+              <li>Shift scheduling tools</li>
+              <li>Event approvals</li>
+            </ul>
+            <div class="role-actions">
+              <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                <input type="hidden" name="item_name" value="Supervisor Role (1 Month)">
+                <input type="hidden" name="amount" value="35.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="cta">Pay $35/month</button>
+              </form>
+              <a class="cta ghost" href="#rules">View Requirements</a>
+            </div>
+          </article>
+          <article class="role-card">
+            <div class="role-header">
+              <h3>Reserve Slot</h3>
+              <span class="role-tag">$3/month</span>
+            </div>
+            <p class="role-desc">
+              When the server is full (8+ players), reserve one of 2 paid slots to get instant access.
+            </p>
+            <ul class="role-list">
+              <li>Instant entry when full</li>
+              <li>Reserved slot (limited to 2)</li>
+              <li>Use anytime server reaches capacity</li>
+            </ul>
+            <div class="role-actions">
+              <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                <input type="hidden" name="item_name" value="Reserve Slot (1 Month)">
+                <input type="hidden" name="amount" value="3.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="cta primary">Pay $3/month</button>
+              </form>
+              <a class="cta ghost" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Learn More</a>
+            </div>
+          </article>
+          <article class="role-card premium">
+            <div class="role-header">
+              <h3>VIP Role</h3>
+              <span class="role-tag">$25 one-time</span>
+            </div>
+            <p class="role-desc">
+              Premium VIP unlocks with assets and starting cash included.
+            </p>
+            <ul class="role-list">
+              <li>1 car + 1 house</li>
+              <li>$155,000 cash</li>
+              <li>$50,000 bonus cash</li>
+            </ul>
+            <div class="role-actions">
+              <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                <input type="hidden" name="item_name" value="VIP Role (One Time)">
+                <input type="hidden" name="amount" value="25.00">
+                <input type="hidden" name="currency_code" value="USD">
+                <button type="submit" class="cta primary">Pay $25</button>
+              </form>
+              <a class="cta ghost" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Contact Staff</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="unban" id="unban">
+        <div class="section-head">
+          <h2>Unban Service</h2>
+          <p>Get back in the city. Appeal your ban with our unban service.</p>
+        </div>
+        <div class="unban-card">
+          <div>
+            <h3>Unban ($75)</h3>
+            <p>Pay for an unban appeal. After payment, email or open a ticket with proof of payment to <strong>blakeg716@hotmail.com</strong> and we will review your case.</p>
+            <ul class="unban-list">
+              <li>Appeals reviewed within 48 hours</li>
+              <li>Email or Discord ticket support</li>
+              <li>Full refund + $1 month access if appeal denied or payment fails</li>
+            </ul>
+          </div>
+          <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="add" value="1">
+            <input type="hidden" name="business" value="blakeg716@hotmail.com">
+            <input type="hidden" name="item_name" value="Unban Appeal">
+            <input type="hidden" name="amount" value="75.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit" class="cta primary">Pay $75 to Appeal</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="access">
+        <div class="access-copy">
+          <h2>Pay $1/Month for Server Access</h2>
+          <p>
+            We keep the community focused with a small monthly access fee. Your subscription gives you the whitelist
+            application and ongoing onboarding path to SkyLinesRP.
+          </p>
+          <div class="access-actions">
+            <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Access Pass (1 Month)">
+              <input type="hidden" name="amount" value="1.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary">Unlock for $1</button>
+            </form>
+            <a class="cta ghost" href="#rules">Read the Rules</a>
+          </div>
+        </div>
+        <div class="access-panel">
+          <div class="panel-row">
+            <span>Access fee</span>
+            <strong>$1 USD/month</strong>
+          </div>
+          <div class="panel-row">
+            <span>Payment type</span>
+            <strong>Monthly subscription</strong>
+          </div>
+          <div class="panel-row">
+            <span>Delivery</span>
+            <strong>Whitelist invitation</strong>
+          </div>
+          <div class="panel-row">
+            <span>Support</span>
+            <strong>Discord ticket</strong>
+          </div>
+          <div class="panel-row">
+            <span>Server IP</span>
+            <strong><a class="link" href="http://192.168.1.4" target="_blank" rel="noopener">192.168.1.4</a></strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="support" id="support">
+        <div class="section-head">
+          <h2>Support Ticket</h2>
+          <p>Open a ticket in Discord and we will get back to you.</p>
+        </div>
+        <div class="support-card">
+          <div>
+            <h3>#support-ticket</h3>
+            <p>Use this channel for payment help, access issues, or role questions.</p>
+          </div>
+          <a class="cta primary" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Open Ticket</a>
+        </div>
+      </section>
+
+      <section class="donate" id="donate">
+        <div class="section-head">
+          <h2>Support SkyLinesRP</h2>
+          <p>Keep the city running with direct donations.</p>
+        </div>
+        <div class="donate-card">
+          <div>
+            <h3>Donate</h3>
+            <p>Every contribution helps improve events, scripts, and staffing.</p>
+          </div>
+          <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="add" value="1">
+            <input type="hidden" name="business" value="blakeg716@hotmail.com">
+            <input type="hidden" name="item_name" value="Donation">
+            <input type="hidden" name="amount" value="1.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit" class="cta primary">Donate via PayPal</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="giftcards" id="giftcards">
+        <div class="section-head">
+          <h2>Gift Cards</h2>
+          <p>Share the SkyLinesRP experience. Send a gift card to a friend.</p>
+        </div>
+        <div class="giftcard-grid">
+          <div class="giftcard-card">
+            <div class="giftcard-icon">🎁</div>
+            <h3>Server Access Gift</h3>
+            <p class="giftcard-price">$1</p>
+            <p>Give a friend 1 month of server access</p>
+            <ul class="giftcard-list">
+              <li>1 month access pass</li>
+              <li>Whitelist approved</li>
+              <li>Email delivery</li>
+            </ul>
+            <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Gift Card - Server Access (1 Month)">
+              <input type="hidden" name="amount" value="1.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary full">Buy Gift Card</button>
+            </form>
+          </div>
+
+          <div class="giftcard-card">
+            <div class="giftcard-icon">👑</div>
+            <h3>Owner Role Gift</h3>
+            <p class="giftcard-price">$75</p>
+            <p>Give the ultimate server control to a friend</p>
+            <ul class="giftcard-list">
+              <li>1 month Owner role</li>
+              <li>Full server control</li>
+              <li>Email delivery</li>
+            </ul>
+            <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Gift Card - Owner Role (1 Month)">
+              <input type="hidden" name="amount" value="75.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary full">Buy Gift Card</button>
+            </form>
+          </div>
+
+          <div class="giftcard-card">
+            <div class="giftcard-icon">⭐</div>
+            <h3>Supervisor Gift</h3>
+            <p class="giftcard-price">$35</p>
+            <p>Give moderation powers to your team</p>
+            <ul class="giftcard-list">
+              <li>1 month Supervisor role</li>
+              <li>Moderation tools</li>
+              <li>Email delivery</li>
+            </ul>
+            <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Gift Card - Supervisor Role (1 Month)">
+              <input type="hidden" name="amount" value="35.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary full">Buy Gift Card</button>
+            </form>
+          </div>
+
+          <div class="giftcard-card">
+            <div class="giftcard-icon">🚪</div>
+            <h3>Reserve Slot Gift</h3>
+            <p class="giftcard-price">$3</p>
+            <p>Give guaranteed server access when full</p>
+            <ul class="giftcard-list">
+              <li>1 month Reserve Slot</li>
+              <li>Priority entry</li>
+              <li>Email delivery</li>
+            </ul>
+            <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Gift Card - Reserve Slot (1 Month)">
+              <input type="hidden" name="amount" value="3.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary full">Buy Gift Card</button>
+            </form>
+          </div>
+
+          <div class="giftcard-card">
+            <div class="giftcard-icon">💎</div>
+            <h3>VIP Role Gift</h3>
+            <p class="giftcard-price">$25</p>
+            <p>Give premium VIP access to a friend</p>
+            <ul class="giftcard-list">
+              <li>1 VIP role unlock</li>
+              <li>Car + house included</li>
+              <li>Email delivery</li>
+            </ul>
+            <form class="paypal-form full" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+              <input type="hidden" name="cmd" value="_cart">
+              <input type="hidden" name="add" value="1">
+              <input type="hidden" name="business" value="blakeg716@hotmail.com">
+              <input type="hidden" name="item_name" value="Gift Card - VIP Role">
+              <input type="hidden" name="amount" value="25.00">
+              <input type="hidden" name="currency_code" value="USD">
+              <button type="submit" class="cta primary full">Buy Gift Card</button>
+            </form>
+          </div>
+        </div>
+        <div class="giftcard-info">
+          <h3>How Gift Cards Work</h3>
+          <ul>
+            <li>Purchase a gift card and we'll email you a unique code</li>
+            <li>Share the code with your friend via email or Discord</li>
+            <li>Your friend redeems it in our Discord server</li>
+            <li>The subscription is activated immediately</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="policy" id="rules">
+        <div class="section-head">
+          <h2>Rules &amp; Refund Policy</h2>
+          <p>Clear expectations keep the RP experience focused and fair.</p>
+        </div>
+        <div class="policy-grid">
+          <div class="policy-card">
+            <h3>Core Rules</h3>
+            <ul>
+              <li>Respect roleplay and stay in character.</li>
+              <li>No cheating, exploiting, or harassment.</li>
+              <li>Follow staff directions during events.</li>
+              <li>Use Discord tickets for disputes.</li>
+            </ul>
+          </div>
+          <div class="policy-card">
+            <h3>Refunds</h3>
+            <ul>
+              <li>Monthly subscriptions are non-refundable once charged.</li>
+              <li>Cancel anytime; access ends at the end of your billing cycle.</li>
+              <li>Owner role payments are non-refundable after onboarding.</li>
+              <li>Chargebacks result in removal of access.</li>
+              <li>Contact staff in Discord for billing questions.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="section-head">
+          <h2>Quick Questions</h2>
+          <p>Keep it clear for new arrivals.</p>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-card">
+            <h3>Is the $1 required?</h3>
+            <p>Yes. The fee keeps access controlled and supports staffing.</p>
+          </div>
+          <div class="faq-card">
+            <h3>How do I become Owner?</h3>
+            <p>Purchase the paid Owner role and coordinate with staff to be onboarded.</p>
+          </div>
+          <div class="faq-card">
+            <h3>What about Supervisor?</h3>
+            <p>Apply through the staff form and complete the interview process.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>SkyLinesRP</strong>
+        <p>Payments via PayPal. Reach out in Discord for support.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#roles">Roles</a>
+        <a href="#support">Support</a>
+        <a href="#rules">Rules</a>
+        <a href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </footer>
+
+    <script>
+      // Dropdown toggle on click
+      document.querySelectorAll('.dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const dropdown = this.closest('.dropdown');
+          dropdown.classList.toggle('active');
+        });
+      });
+
+      // Close dropdown when clicking a link
+      document.querySelectorAll('.dropdown-menu a').forEach(link => {
+        link.addEventListener('click', function() {
+          const dropdown = this.closest('.dropdown');
+          dropdown.classList.remove('active');
+        });
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(event) {
+        document.querySelectorAll('.dropdown').forEach(dropdown => {
+          if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove('active');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

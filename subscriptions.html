@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manage Subscriptions - SkyLinesRP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="neo">
+    <div class="noise"></div>
+    <header class="hero hero-small">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand-mark">SL</span>
+          <span class="brand-name">SkyLinesRP</span>
+        </div>
+        <div class="nav-actions">
+          <a class="cta ghost" href="index.html">← Back to Store</a>
+          <a class="cta ghost" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=blakeg716@hotmail.com&display=1&currency_code=USD" target="_blank" rel="noopener">View Cart</a>
+          <a class="cta" href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Join Discord</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subscriptions-section" id="subscriptions">
+        <div class="container">
+          <div class="section-head">
+            <h2>Manage Your Subscriptions</h2>
+            <p>View your active subscriptions, toggle auto-renew, and manage your account.</p>
+          </div>
+
+          <div class="subscriptions-list">
+            <!-- Server Access -->
+            <div class="sub-card">
+              <div class="sub-header">
+                <h3>Server Access</h3>
+                <span class="sub-status">Active</span>
+              </div>
+              <div class="sub-details">
+                <div class="detail-row">
+                  <span>Monthly Cost</span>
+                  <strong>$1.00</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Next Billing Date</span>
+                  <strong>March 11, 2026</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Started</span>
+                  <strong>February 11, 2026</strong>
+                </div>
+              </div>
+
+              <div class="toggle-container">
+                <div class="toggle-switch">
+                  <input type="checkbox" id="auto-renew-access" checked />
+                  <label for="auto-renew-access"></label>
+                </div>
+                <span class="toggle-text">Auto-Renew Enabled</span>
+              </div>
+              <p class="toggle-note">Your subscription will automatically renew each month unless cancelled.</p>
+
+              <div class="role-actions">
+                <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_cart">
+                  <input type="hidden" name="add" value="1">
+                  <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                  <input type="hidden" name="item_name" value="Server Access (1 Month)">
+                  <input type="hidden" name="amount" value="1.00">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <button type="submit" class="cta primary">Update Payment</button>
+                </form>
+                <button class="cta ghost" onclick="alert('Open a Discord ticket in #support-ticket to cancel.')">Cancel Subscription</button>
+              </div>
+            </div>
+
+            <!-- Owner Role -->
+            <div class="sub-card">
+              <div class="sub-header">
+                <h3>Owner Role</h3>
+                <span class="sub-status">Active</span>
+              </div>
+              <div class="sub-details">
+                <div class="detail-row">
+                  <span>Monthly Cost</span>
+                  <strong>$80.00</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Next Billing Date</span>
+                  <strong>March 11, 2026</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Started</span>
+                  <strong>February 11, 2026</strong>
+                </div>
+              </div>
+
+              <div class="toggle-container">
+                <div class="toggle-switch">
+                  <input type="checkbox" id="auto-renew-owner" checked />
+                  <label for="auto-renew-owner"></label>
+                </div>
+                <span class="toggle-text">Auto-Renew Enabled</span>
+              </div>
+              <p class="toggle-note">Your subscription will automatically renew each month unless cancelled.</p>
+
+              <div class="role-actions">
+                <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_cart">
+                  <input type="hidden" name="add" value="1">
+                  <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                  <input type="hidden" name="item_name" value="Owner Role (1 Month)">
+                  <input type="hidden" name="amount" value="80.00">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <button type="submit" class="cta primary">Update Payment</button>
+                </form>
+                <button class="cta ghost" onclick="alert('Open a Discord ticket in #support-ticket to cancel.')">Cancel Subscription</button>
+              </div>
+            </div>
+
+            <!-- Reserve Slot -->
+            <div class="sub-card">
+              <div class="sub-header">
+                <h3>Reserve Slot</h3>
+                <span class="sub-status">Active</span>
+              </div>
+              <div class="sub-details">
+                <div class="detail-row">
+                  <span>Monthly Cost</span>
+                  <strong>$3.00</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Next Billing Date</span>
+                  <strong>March 11, 2026</strong>
+                </div>
+                <div class="detail-row">
+                  <span>Started</span>
+                  <strong>February 11, 2026</strong>
+                </div>
+              </div>
+
+              <div class="toggle-container">
+                <div class="toggle-switch">
+                  <input type="checkbox" id="auto-renew-reserve" checked />
+                  <label for="auto-renew-reserve"></label>
+                </div>
+                <span class="toggle-text">Auto-Renew Enabled</span>
+              </div>
+              <p class="toggle-note">Your subscription will automatically renew each month unless cancelled.</p>
+
+              <div class="role-actions">
+                <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_cart">
+                  <input type="hidden" name="add" value="1">
+                  <input type="hidden" name="business" value="blakeg716@hotmail.com">
+                  <input type="hidden" name="item_name" value="Reserve Slot (1 Month)">
+                  <input type="hidden" name="amount" value="3.00">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <button type="submit" class="cta primary">Update Payment</button>
+                </form>
+                <button class="cta ghost" onclick="alert('Open a Discord ticket in #support-ticket to cancel.')">Cancel Subscription</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card" id="auto-renew">
+            <h3>Auto-Renew Information</h3>
+            <p>Your subscriptions are set to auto-renew by default. You can toggle auto-renew on or off for each subscription above. If auto-renew is enabled, your subscription will automatically charge to your PayPal account on your next billing date.</p>
+            <p>You can cancel anytime without penalty. Your access will continue through your current billing cycle.</p>
+          </div>
+
+          <div class="info-card" id="cancel">
+            <h3>Need Help?</h3>
+            <p>To cancel or modify your subscription, open a support ticket in Discord or email us directly.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+              <a class="cta primary" href="https://discord.gg/GrjJajYC" target="_blank">Open Discord Ticket</a>
+              <a class="cta ghost" href="mailto:blakeg716@hotmail.com">Email Support</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>SkyLinesRP</strong>
+        <p>Payments via PayPal. Reach out in Discord for support.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#roles">Roles</a>
+        <a href="index.html#support">Support</a>
+        <a href="index.html#rules">Rules</a>
+        <a href="https://discord.gg/GrjJajYC" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </footer>
+  </body>
+</html>
